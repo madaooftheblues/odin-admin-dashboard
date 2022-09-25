@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template: 1fr 4fr / 1fr 4fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  grid-column: 1/2;
+}
